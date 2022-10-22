@@ -3,7 +3,6 @@ const cors = require('cors');
 const myRouter = require('./routes/data');
 
 const PORT = process.env.PORT || 9000;
-const HOST = 'localhost';
 
 const app = express();
 
@@ -567,6 +566,6 @@ app.use('/check',(req,res) => {
     ]);
 })
 
-app.listen(PORT,HOST, () => {
+app.listen(PORT, () => {
     console.log("Server running at http://localhost:9000");
 });
