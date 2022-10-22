@@ -549,7 +549,7 @@ const data = (req, res) => {
       title: "World Tour packages",
       description:
         "With travelers’ desire for new experiences, the rapid global technological advancements, climate change, and other dynamics, the travel and tourism industry is constantly transforming.All the same, there are still rising tourism trends that can help tour operators, Destination Marketing Organizations (DMOs)",
-    },
+    }
   ]);
 };
 module.exports.dataController = data;
